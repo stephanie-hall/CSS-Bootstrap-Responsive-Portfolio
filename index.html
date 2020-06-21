@@ -1,20 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steph's Site</title>
-    <!-- Bootstrap Link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<body>
+        <!-- Bootstrap Link -->
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous"
+        />
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css"/>
+
+        <!-- Sites Title -->
+        <title>Steph's Site</title>
+    </head>
+
+    <body>
     
-    <div class="container-sm">
-        <div>
-            
-        </div>
-    </div>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Steph Hall</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"></div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-</body>
+        <!-- About Me Info -->
+        <div class="container">
+            <section class="about-me">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="section-title text-uppercase">About Me</h1>
+                        <hr />
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-6">
+                        <img
+                        src="IMG_0964.jpg"
+                        alt="About me image"
+                        class="img-fluid mb-4"
+                    />
+                </div>
+                <div class="col-md-6 about-me-text">
+                    <p>
+                        Hello! My name is Stephanie Hall. I am brand new to coding and I
+                        am very excited to begin this journey of becoming a web-developer.
+                        I was previously studying to be an Occupational Therapist and I
+                        currently work at an insurance company but I have decided that 
+                        the medical field is not for me. 
+                    </p>
+                    <p>
+                        I am a dog mom to an adorable Australian Shepherd, Bentley. My 
+                        hobbies include hiking, kayaking, pretty much anything that 
+                        includes spending time outside with friends and family, game 
+                        nights and hanging out with my dog.
+                    </p>
+                    <p>
+                        I currently live in the Plymouth/Canton area. After this boot camp
+                        I plan to look for a job in the Royal Oak area or downtown Detroit. 
+                        I currently work downtown and love it but I am not sure living 
+                        downtown would work well with a dog.   
+                    </p>
+
+                </div>
+              
+            </section>
+        </div>
+        
+        </div>
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+              <div class="row align-content-center">
+                <div class="col-md-4 d-flex justify-content-end">
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/stephanie.hall.524"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-start">
+                  <div class="social-icon">
+                    <a href="https://www.instagram.com/stephaniehall41/?hl=en"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+    </body>
 </html>
