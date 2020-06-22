@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Bootstrap Link -->
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous"
+        />
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css"/>
+
+        <!-- Sites Title -->
+        <title>Steph's Site</title>
+    </head>
+
+    <body>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Steph Hall</a>
+            <div class="collapse navbar-collapse" id="navbarNav"></div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Contact Form -->
+        <div class="container">
+            <section class="contact">
+              <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-title text-uppercase">Contact</h1>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <form class="contact-form">
+                            <!-- Name -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    aria-describedby="textHelp"
+                                    placeholder="John Smith"
+                                />
+                            </div>
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                    placeholder="example@gmail.com"
+                                />
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="messageTextarea1">Message</label>
+                                <textarea
+                                    class="form-control"
+                                    id="messageTextarea1"
+                                    rows="3"
+                                ></textarea>
+                            </div>
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-default btn-my-primary">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+
+    </body>
+</html>
