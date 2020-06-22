@@ -3,11 +3,6 @@ body {
     background-color: lavender;
 }
 
-/* Box Color */
-section {
-    background-color: white;
-}
-
 /* Contact Form Spacing */
 .contact-form {
     padding: 25px

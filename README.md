@@ -41,5 +41,5 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Must properly utilize Bootstrap components and grid system.
 
-![Screenshot of index.html](Capture.PNG)
+![Screenshot of index.html](./Images/Capture.PNG)
 
