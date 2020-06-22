@@ -1,0 +1,24 @@
+/* Backgroud Color */
+body {
+    background-color: lavender;
+}
+
+/* Box Color */
+section {
+    background-color: white;
+}
+
+/* Contact Form Spacing */
+.contact-form {
+    padding: 25px
+}
+
+/* Submit Button Coloring */
+.btn-my-primary {
+    background-color: lightpink;
+    color: black;
+}
+.btn-my-primary:hover {
+    background-color: lightgreen;
+    color: black;
+}
