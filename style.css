@@ -8,6 +8,10 @@ body {
     padding: 25px
 }
 
+section {
+    background-color: white;
+}
+
 /* Submit Button Coloring */
 .btn-my-primary {
     background-color: lightpink;
@@ -15,5 +19,10 @@ body {
 }
 .btn-my-primary:hover {
     background-color: lightgreen;
+    color: black;
+}
+
+/* Nav Text Color */
+.nav-link {
     color: black;
 }
