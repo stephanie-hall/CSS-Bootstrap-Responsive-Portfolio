@@ -43,3 +43,4 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 ![Screenshot of index.html](./Images/Capture.PNG)
 
+Link to working website: https://stephanie-hall.github.io/Homework-2/
