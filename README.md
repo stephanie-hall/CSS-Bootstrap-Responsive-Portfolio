@@ -41,6 +41,6 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Must properly utilize Bootstrap components and grid system.
 
-![Screenshot of index.html](./Images/Capture.PNG)
+![Screenshot of index.html](assets\Images\Capture.PNG)
 
 Link to working website: [stephanie-hall.github.io/CSS-Bootstrap-Responsive-Portfolio](https://stephanie-hall.github.io/CSS-Bootstrap-Responsive-Portfolio/)
