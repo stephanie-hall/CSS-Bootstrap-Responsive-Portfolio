@@ -1,91 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <!-- Bootstrap Link -->
-        <link 
-            rel="stylesheet" 
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-            crossorigin="anonymous"
-        />
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
 
         <!-- CSS Link -->
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="assets/style.css"/>
 
         <!-- Sites Title -->
-        <title>Steph's Site</title>
+        <title>Stephanie's Portfolio</title>
     </head>
 
     <body>
         <!-- NAV BAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Steph Hall</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class= "container">
+                <a class="navbar-brand" href="index.html" id="logo">Stephanie Hall</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <br />
-        <br />
 
-        <!-- About Me Info -->
-        <div class="content">
-            <div class="container">
-                <section class="about-me">
-                    <div class="row">
-                        <div class="col-md-1">
-                        </div>
-                        <div class="col-md-10">
-                            <h1 class="section-title text-uppercase">About Me</h1>
-                            <hr />
-                        </div>
-                        <div class="col-md-1">
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="row">
-                        <div class="col-md-1">
-                        </div>
-                        <div class="col-md-5">
-                            <img
-                                src="./Images/About-me-page.jpg"
-                                alt="About me image"
-                                class="img-fluid mb-4"
-                            />
-                        </div>
+
+        <!-- About Me Section -->
+        <main class="container">
+            <section class="row">
+                <div class="col-md-8">
+                    <article class="block">
+                        <h1 class="block-header">About Me</h1>
+                        <hr />
+                        <!-- Image -->
+                        <img src="assets/Images/About-me-page.jpg" alt="Picture of me" id="about-image" />
                         <!-- Paragraph Text -->
-                        <div class="col-md-5">
-                            <p>
-                                Hello! My name is Stephanie Hall. I currently live in the 
-                                Plymouth/Canton area. I graduated from Michigan State University 
-                                with a major in Kinesiology.I am brand new to coding and I am 
-                                very excited to begin this journey of becoming a web-developer.
-                            </p>
-                            <p>
-                                I am a dog mom to an adorable Australian Shepherd, Bentley. My 
-                                hobbies include traveling,  hiking, kayaking, pretty much anything 
-                                that includes spending time outside with friends and family, game 
-                                nights and hanging out with my pup. I also really love elephants
-                                &#128024;.
-                            </p>
-                        </div>
-                        <div class="col-md-1">
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
+                        <br />
+                        <p>Hello! My name is Stephanie Hall. I currently live in the Plymouth/Canton 
+                        area. I graduated from Michigan State University in 2017 with a major of 
+                        Kinesiology. I am looking to make a career switch to web development. I'm 
+                        learning how to code through MSU's full stack coding bootcamp as well as other
+                        online resources. I cant wait to add more projects to my portfolio as I 
+                        develop them.</p>
+                        <br />
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Start of footer -->
+        <footer class="footer">
+            <p class="text-muted text-muted-footer text-center">
+                &copy; Copyright 2020 Stephanie Hall
+            </p>
+        </footer>
+
     </body>
 </html>
