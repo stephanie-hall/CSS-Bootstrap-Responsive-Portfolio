@@ -40,4 +40,4 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 ![Screenshot of index.html](/assets/Images/Capture.PNG)
 
-Link to working website: [stephanie-hall.github.io/CSS-Bootstrap-Responsive-Portfolio](https://stephanie-hall.github.io/CSS-Bootstrap-Responsive-Portfolio/)
+Link to working website: [CSS-Bootstrap-Responsive-Portfolio](https://stephanie-hall.github.io/CSS-Bootstrap-Responsive-Portfolio/)
